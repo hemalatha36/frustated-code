@@ -1,7 +1,7 @@
 #include <iostream.h>
 long long int top = -1;
 
-void push(int stack[], int x, long long int n) 
+void push(int stack[], int y, long long int n) 
 {
 if (top == n - 1) 
 {
@@ -9,7 +9,7 @@ cout << "Stack is full.Overflow condition!";
 } 
 else {
 top = top + 1; 
-stack[top] = x; 
+stack[top] = y; 
 }
 }
 
